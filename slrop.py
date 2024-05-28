@@ -119,7 +119,7 @@ def first(rule):
 				indivRes = first(itr)
 				fres = fres + indivRes
 			if '#' not in fres:
-				return fres
+				return fres 
 			else:
 				newList = []
 				fres.remove('#')
